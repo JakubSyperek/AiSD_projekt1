@@ -1,0 +1,40 @@
+from Zad1 import LinkedList
+class Queue:
+
+    _storage: LinkedList
+
+    def peek(self):
+        return self._storage.
+
+    def enqueue(self, element: Any):
+
+
+    def dequeue(self):
+
+
+
+
+
+
+
+
+
+
+queue = Queue()
+
+
+assert len(queue) == 0
+
+
+queue.enqueue('klient1')
+queue.enqueue('klient2')
+queue.enqueue('klient3')
+
+assert str(queue) == 'klient1, klient2, klient3'
+
+
+client_first = queue.dequeue()
+
+assert client_first == 'klient1'
+assert str(queue) == 'klient2, klient3'
+assert len(queue) == 2
